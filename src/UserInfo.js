@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './UserInfo.css'
 
 const UserInfo = () => {
   const [users, setUsers] = useState([]);
@@ -53,7 +54,7 @@ const UserInfo = () => {
   };
 
   return (
-    <div>
+    <div id='container'>
       <div>
         <input
           type="text"
